@@ -1,0 +1,5 @@
+# Robots.txt file syntax to control web crawler access
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *      # Applies to all web crawlers/bots
+Disallow:          # No path specified, so no pages are disallowed — all pages are allowed to be crawled

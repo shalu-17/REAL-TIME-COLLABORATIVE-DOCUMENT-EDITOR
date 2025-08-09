@@ -1,0 +1,32 @@
+/* Styles for the entire editor page container */
+.editor-page {
+  padding: 20px; /* Space inside the container */
+  background-color: #f0f8ff; /* Light blue background */
+  min-height: 100vh; /* Full viewport height minimum */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Clean readable font */
+}
+
+/* Title styling at the top of the editor page */
+.editor-title {
+  text-align: center; /* Center the title text */
+  padding: 15px; /* Space around the text */
+  font-size: 30px; /* Large font size */
+  font-weight: bold; /* Bold text */
+  background-color: #d9eafd; /* Light blue background for title */
+  border-radius: 12px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below the title */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Container for the editor area */
+.editor-container {
+  max-width: 1200px; /* Max width to keep it manageable on large screens */
+  margin: 0 auto; /* Center horizontally */
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Inner padding */
+  height: 600px; /* Fixed height for editor area */
+  overflow-y: auto; /* Enable vertical scroll if content overflows */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Very light shadow for subtle elevation */
+}

@@ -1,0 +1,61 @@
+/* Reset default body margin and set global font and background color */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff; /* Light blue background for the whole page */
+}
+
+/* Main container for the editor */
+.editor-container {
+  width: 100%; /* Full width */
+  min-height: 100vh; /* At least full viewport height */
+  box-sizing: border-box; /* Include padding and border in element’s total width/height */
+  padding-top: 100px; /* Space at the top to accommodate fixed title and toolbar */
+  background-color: #e6f2ff; /* Same light blue background */
+}
+
+/* Fixed header title bar at top center */
+.editor-title {
+  position: fixed; /* Fix position even when scrolling */
+  top: 10px; /* 10px from top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Offset by 50% width to perfectly center */
+  background-color: white; /* White background for contrast */
+  padding: 10px 30px; /* Padding inside the title */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 20px; /* Medium-large font size */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Subtle shadow for elevation */
+  z-index: 1000; /* Make sure it stays above other elements */
+}
+
+/* Wrapper around editor content, centered and with max width */
+.editor-wrapper {
+  margin: 0 auto; /* Center horizontally */
+  width: 90%; /* Use 90% of viewport width */
+  max-width: 900px; /* Max width for readability */
+  background-color: white; /* White background */
+  padding: 20px; /* Inner padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Fixed toolbar styling, positioned below title and centered */
+.ql-toolbar {
+  position: fixed; /* Fixed position */
+  top: 60px; /* Positioned below the editor-title */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Perfectly center */
+  width: 90%; /* Take 90% width */
+  max-width: 900px; /* Limit max width */
+  z-index: 999; /* Just below the title's z-index */
+  background-color: white; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+/* Editor content container with spacing for fixed toolbar */
+.ql-container {
+  margin-top: 130px; /* Push content down to clear fixed toolbar and title */
+  min-height: 500px; /* Minimum height for editor area */
+  background-color: white; /* White background */
+  border-radius: 8px; /* Rounded corners */
+}
