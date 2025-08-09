@@ -46,5 +46,5 @@ It allows multiple users to edit documents together in real-time, with support f
 ---
 
 #OUTPUT
-
+<img width="1905" height="926" alt="Image" src="https://github.com/user-attachments/assets/56430d79-a227-4bf7-9757-266270719e75" />
 
