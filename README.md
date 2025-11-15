@@ -1,6 +1,6 @@
 # REAL-TIME-COLLABORATIVE-DOCUMENT-EDITOR
 
-# 📝 Collaborative Document Editor (Google Docs Clone)
+# 📝 Collaborative Document Editor 
 
 A **real-time collaborative document editor** built using **React.js**, **Node.js**, **Express**, **Socket.io**, and **MongoDB**.  
 It allows multiple users to edit documents together in real-time, with support for **PDF export, PDF upload, rich text formatting, custom fonts, tables, line spacing, column spacing**, and more.
@@ -27,13 +27,13 @@ It allows multiple users to edit documents together in real-time, with support f
 
 **Frontend:**  
 - React.js  
-- Quill.js (Rich Text Editor)  
-- CSS3 / Tailwind (optional for styling)
+- Quill.js 
+- CSS3 
 
 **Backend:**  
 - Node.js  
 - Express.js  
-- Socket.io (real-time updates)  
+- Socket.io   
 
 **Database:**  
 - MongoDB  
