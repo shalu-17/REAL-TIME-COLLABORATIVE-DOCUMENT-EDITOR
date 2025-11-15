@@ -1,10 +1,5 @@
 # REAL-TIME-COLLABORATIVE-DOCUMENT-EDITOR
-COMPANY : CODTECH SOLUTIONS
-NAME: SHALU
-INTERN ID:CT06DG2964
-DOMAIN: FULL STACK DEVELOPER
-DURATION: 6 WEEKS
-MENTOR: NEELA SANTOSH
+
 # 📝 Collaborative Document Editor (Google Docs Clone)
 
 A **real-time collaborative document editor** built using **React.js**, **Node.js**, **Express**, **Socket.io**, and **MongoDB**.  
